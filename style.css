@@ -1,0 +1,28 @@
+html {
+    margin:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.center {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    height: 10em;
+    border: 1px solid #F7D56E;
+    width: 300px;
+    height: 450px;
+    border-radius: 1em;
+    background-image: url("./images/beer_background.jpg");
+    color: #201C1E;
+    text-align: center;
+}

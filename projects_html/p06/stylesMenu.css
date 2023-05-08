@@ -1,0 +1,25 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+menu {
+    background-color: #FFF4E0;
+    }
+
+ul {
+    list-style-type: none;
+ }
+
+li {
+
+    padding: 0.5em 2em;
+    }
+
+a {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    color: #4D4D4D;
+     
+}
+

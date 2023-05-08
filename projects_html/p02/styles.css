@@ -1,0 +1,134 @@
+* {
+    margin: 0px auto;
+    padding: 0;
+    font-family: 'Helvitica', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+body {
+    margin: 20px;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.topRow {
+    display: flex;
+    flex-direction: row;
+    max-height: 69px;    
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    }
+ul {
+    list-style-type: none;
+    text-decoration: underline;
+}
+li {
+    
+    padding-left: 40px;
+}
+
+.logo {
+    display: flex;
+    height: 50px;
+    justify-content: flex-start;
+}
+
+.heroBlock {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: 700px;
+    background-image: url("./images/img-mission-background.webp");
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    
+}
+
+.blackBar {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    width: 100%;
+    
+    
+}
+
+.galleryContainer {
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.addCaption {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagesize {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    
+   
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: 700px;
+    background-image: url("./images/img-locations-background.webp");
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: space-between;
+    background-position: center;
+    max-width: 1000px; 
+    
+    
+   
+}
+
+.locationCards {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    
+
+
+}
+
+.locationContent {
+    min-width: 300px;
+    text-align: center;
+    
+}
+
+.footer {
+    min-height: 200px;
+    text-align: center;
+}

@@ -1,0 +1,98 @@
+* {
+    margin:0 auto;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4D4D4D;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 600px;
+    grid-auto-flow: row;
+    grid-gap: 20px;
+    
+}
+
+@media only screen and (max-width: 1800px) {
+    .gridContainer {
+    grid-template-columns: 1fr 1fr 1fr;
+}}
+
+@media only screen and (max-width: 1200px) {
+    .gridContainer {
+    grid-template-columns: 1fr 1fr;
+}}
+
+
+@media only screen and (max-width: 600px) {
+    .gridContainer {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}}
+
+
+
+
+h4 {
+    font-size: 1.4em;
+    color: #B46060;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #FFBF9B;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #FFBF9B;
+
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image {
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.image11 {    background-image: url("./images/bahama-mom-g00c6b0839_640.jpg");   }
+.image12 {    background-image: url("./images/blue-hawaii-g68f0c4c6b_640.jpg");   }
+.image13 {    background-image: url("./images/blue-lagoon-g9047d8e49_640.jpg");   }
+.image14 {    background-image: url("./images/caipirinha-gd9158001f_640.jpg");   }
+
+
+.image21 {    background-image: url("./images/cocktail-g4c80db51a_640.jpg");   }
+.image22 {    background-image: url("./images/cocktail-gce7f829cb_640.jpg");   }
+.image23 {    background-image: url("./images/cocktail-gdfe240df9_640.jpg");   }
+.image24 {    background-image: url("./images/cosmopolitan-g9e26f093f_640.jpg");   }
+
+
+.image31 {    background-image: url("./images/dirty-martini-g66fc557ad_640.jpg");   }
+.image32 {    background-image: url("./images/long-island-iced-tea-g77f37922f_640.jpg");   }
+.image33 {    background-image: url("./images/mojito-g52746f01d_640.jpg");   }
+.image34 {    background-image: url("./images/pina-colada-gaaede8320_640.jpg");   }
+
+
+.image41 {    background-image: url("./images/pina-colada-gc500fbc58_640.jpg");   }
+.image42 {    background-image: url("./images/screwdriver-g08ec4c64e_640.jpg");   }
+.image43 {    background-image: url("./images/strawberry-daiquiri-gf07cee7bb_640.jpg");   }
+.image44 {    background-image: url("./images/strawberry-mojito-g1551c76cf_640.jpg");   }
+
+
+

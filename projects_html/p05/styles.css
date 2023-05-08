@@ -1,0 +1,141 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: 'sans-serif';
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.menuContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-items: center;
+    background-color: #008080;
+}
+
+.menuLink {
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.menuText {
+    padding: 0.5rem;
+}
+
+.barAboveTitle {
+    height: 4em;
+    background-color: #ffa07a;
+}
+
+.title {
+    background-color: #80513e;
+    color: #ff7f50;
+    height: 6rem;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meetUp {
+    color: #ffff00;
+    font-size: 2rem;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    height: 12rem;
+    background-color: #ffa07a;
+    padding: 1rem;
+
+}
+
+.blurb {
+    color: white;
+    background-color: #ffa07a;
+    display: flex;
+    justify-content: start;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.imageContainer1 {
+    background-color: #ffa07a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    margin-bottom: 1rem;
+    height: auto;
+    width: 600px;
+}
+
+.imageSmall {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 50%;
+    background-color: #ffa07a;
+    align-items: center;
+}
+
+.iBuild {
+    background-color: #008080;
+    font-size: 3rem;
+    color: #ffff00;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    justify-content: left;
+
+}
+
+.comeJoin {
+    background-color: #ffa07a;
+    font-size: 2rem;
+    color: #ffff00;
+    padding: 2rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bryce {
+    background-color: #008080;
+    font-size: 1.2rem;
+    color: #ffff00;
+    justify-content: left;
+    padding: 2rem 2rem 6rem 2rem;
+}
+
+@media only screen and (min-width: 1000px) {
+    .menuContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        
+    }
+    .menuText {
+        padding-left: 4rem;
+        text-decoration: none;
+    }
+
+    .imageContainer1 {
+        background-color: #ffa07a;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+
+
+}
+

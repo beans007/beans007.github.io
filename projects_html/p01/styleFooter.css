@@ -1,0 +1,20 @@
+* {
+    color: #B46060;
+    font-size: 0.9rem;
+}
+
+address {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    display: flex;
+    
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #B46060;
+}
